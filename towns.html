@@ -11,18 +11,26 @@
 <body>
 
 <h1>Towns</h1>
-<select id="towns" size="4">
+<select id="towns" size="5" style="margin:10px">
     <option>Sofia</option>
     <option>Plovdiv</option>
     <option>Varna</option>
     <option>Bourgas</option>
 </select>
 
-<div>
-    <input type="text" id="townName" />
-    <button id="btnDelete">Delete</button>
+<div style="display:flex">
+	<div style="margin:15px">
+		<input type="text" id="townName" />
+		<button id="btnDelete">Delete</button>
+	</div>
+	<div id="result"></div>
+
+	<div style="margin:15px">
+		<input type="text" id="townNameForAdd" />
+		<button id="btnAdd" >Add</button>
+	</div>
 </div>
-<div id="result"></div>
+
 
 </body>
 
